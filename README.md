@@ -2,7 +2,7 @@
 
 This project is focused on building an conference website showing detailed description of an upcoming submit event titled "Tech them young."
 
-![screenshot](./assets/images/screenshot.jpg)
+![screenshot](./assets/designs/home.PNG)
 
 The goal of this project is to build a simple multipage page responsive conference website which will be coming up later this year. The website will show all the necessary information concerning the conference including: the speakers, program of event, sponsors and other relevant informations.
 
