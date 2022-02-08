@@ -1,15 +1,51 @@
 .about-intro {
-  text-align: center;
+	text-align: center;
 }
 
-.event-description {
-  line-height: 24px;
- background-color: var(--white);
-  padding: 15px;
-  margin: 20px 0;
+.intro-description {
+	line-height: 24px;
+	background-color: var(--white);
+	padding: 15px;
+	margin: 20px 0;
 }
 
 .about-intro a {
-  color: var(--black);
-  text-decoration: underline;
+	color: var(--black);
+	text-decoration: underline;
+}
+
+.past-events {
+	border-top: 1px solid var(--gray);
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.past-events p {
+	margin: 20px;
+}
+
+.events {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.event {
+	position: relative;
+}
+
+.event-description {
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	background: none;
+	font-family: 'COCOGOOSE', sans-serif;
+  color: var(--white);
+}
+.event img {
+	filter: hue-rotate(90deg);
+	width: 375px;
+	height: 200px;
 }
