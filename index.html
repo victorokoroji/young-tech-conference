@@ -22,7 +22,7 @@
 	<body>
 		<section class="intro-container">
 			<header>
-				<!-- <ul class="socials">
+				<ul class="socials">
 					<li>
 						<a href="#" class="icon" target="_blank" rel="noopener noreferrer"
 							><i class="fab fa-facebook-f fa-fw"></i
@@ -40,8 +40,9 @@
 					<li>
 						<a href="#" class="icon">Logout</a>
 					</li>
-				</ul> -->
-				<a href="index.html" class="logo-desktop">TY Global <span>Summit 2022</span></a>
+				</ul>
+				<div class="navbar">
+           	<a href="index.html" class="logo-desktop">TY Conference <br>2022</a>
 				<nav class="hamburger">
 					<div class="menu-bar bars">
 						<i class="fa fa-bars fa-1x"></i>
@@ -51,13 +52,12 @@
 						<div class="menu-bar times">
 							<i class="fa fa-times fa-1x"></i>
 						</div>
-						<a href="index.html" class="logo">TY Global <span>Summit 2022</span></a>
 						<ul class="nav-list">
 						<li>
-								<a href="/home" class="menu-bar" id="home-link">Home</a>
+								<a href="#home" class="menu-bar" id="home-link">Home</a>
 							</li>
 							<li>
-								<a href="/about" class="menu-bar" id="about-link">About</a>
+								<a href="about.html" class="menu-bar" id="about-link">About</a>
 							</li>
 							<li>
 								<a href="#program" class="menu-bar" id="program-link">Program</a>
@@ -69,14 +69,15 @@
 								<a href="#program" class="menu-bar" id="news-link">News</a>
 							</li>
 							<li>
-								<a href="#program" class="menu-bar" id="campaign-link">TY Campaign</a>
+								<a href="#program" class="menu-bar" id="campaign-link">Campaign</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
+				</div>
 			</header>
 
-			<section class="intro">
+			<section class="intro" id="home">
 				<span>"Tech them young"</span>
 				<h1>
 					BRINGING THE YOUNG INTO THE <br />
@@ -233,5 +234,6 @@
 			>
 			<small>2022 Tech them young. Some rights reserveed</small>
 		</footer>
+		<script src="./js/index.js"></script>
 	</body>
 </html>
