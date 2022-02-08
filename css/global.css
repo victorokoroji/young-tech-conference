@@ -167,7 +167,6 @@ img {
 .partners-section h2 {
   text-align: center;
   color: var(--gray);
- 
 }
 
 .partners {
@@ -190,21 +189,21 @@ footer p {
 }
 
 .partner-title {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
   margin-bottom: 40px;
 }
 
 .partner-title span {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 2px;
-	width: 50px;
-	background-color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--orange);
 }
 
 /* footer section styling starts here */
