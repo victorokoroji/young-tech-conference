@@ -47,6 +47,7 @@ document.querySelector('.keynote-speakers').innerHTML = projectDatas
 	.map(
 		data => `
     	<div class="speaker">
+      <div class="speaker-bg"></div>
 					<img src=${data.featuredImage} alt="speaker" />
 					<div class="speaker-description">
 						<h3>${data.name}</h3>
