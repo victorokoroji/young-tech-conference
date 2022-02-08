@@ -1,0 +1,10 @@
+.intro-description {
+  line-height: 24px;
+  border: 3px solid var(--white);
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.event-date {
+  font-family: 'COCOGOOSE', sans-serif;
+}

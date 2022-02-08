@@ -1,0 +1,15 @@
+.about-intro {
+  text-align: center;
+}
+
+.event-description {
+  line-height: 24px;
+ background-color: var(--white);
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.about-intro a {
+  color: var(--black);
+  text-decoration: underline;
+}

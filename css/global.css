@@ -125,7 +125,7 @@ header {
 /* intro section styling starts here */
 
 .intro {
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
 .intro span {
@@ -137,7 +137,7 @@ header {
 .intro h1 {
 	color: var(--orange);
 	font-family: 'COCOGOOSE', sans-serif;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .intro-description {
