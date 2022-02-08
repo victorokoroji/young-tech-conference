@@ -1,142 +1,140 @@
 :root {
-	/* primary colors */
-	--black: #272831;
-	--white: #fff;
-	--orange: #ec5242;
-	--gray: #d3d3d3;
+  /* primary colors */
+  --black: #272831;
+  --white: #fff;
+  --orange: #ec5242;
+  --gray: #d3d3d3;
 }
 
 /* global styling  */
 *,
 ::before,
 ::after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
-	font-size: 1rem;
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 body {
-	width: 100%;
-	min-height: 100vh;
-	background-color: var(--white);
-	overflow-x: hidden;
-	position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+  overflow-x: hidden;
+  position: relative;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* header section styling starts here */
 
 .intro-container {
-	background: url('../assets/images/header.png') no-repeat;
-	background-size: cover;
-	padding: 20px;
+  background: url('../assets/images/header.png') no-repeat;
+  background-size: cover;
+  padding: 20px;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	height: 72px;
-	min-width: 100%;
-
-	z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  min-width: 100%;
+  z-index: 2;
 }
 
 .logo {
-	font-weight: bolder;
-	display: block;
-	font-size: 25px;
-	line-height: 20px;
-	color: var(--black);
-	text-decoration: none;
-	animation: rotate 2s ease;
+  font-weight: bolder;
+  display: block;
+  font-size: 25px;
+  line-height: 20px;
+  color: var(--black);
+  text-decoration: none;
+  animation: rotate 2s ease;
 }
 
 .logo-desktop {
-	display: none;
+  display: none;
 }
 
 .mobile-menu {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	width: 0;
-	height: 812px;
-	background: var(--black);
-	backdrop-filter: blur(8px);
-	display: block;
-	transition: all 1s ease;
-	z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 812px;
+  background: var(--black);
+  backdrop-filter: blur(8px);
+  display: block;
+  transition: all 1s ease;
+  z-index: 2;
 }
 
 .active {
-	width: 100%;
+  width: 100%;
 }
 
 .bars {
-	color: var(--black);
-	font-size: 25px;
+  color: var(--black);
+  font-size: 25px;
 }
 
 .times {
-	color: var(--black);
-	font-size: 25px;
-	margin-top: 40px;
-	margin-right: 38px;
-	font-size: 20px;
+  color: var(--black);
+  font-size: 25px;
+  margin-top: 40px;
+  margin-right: 38px;
 }
 
 .nav-list {
-	margin-top: 90px;
-	margin-left: 28px;
+  margin-top: 90px;
+  margin-left: 28px;
 }
 
 .nav-list li {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .nav-list li a {
-	font-weight: 600;
-	font-size: 32px;
-	color: var(--orange);
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--orange);
 }
 
 /* intro section styling starts here */
 
 .intro {
-	margin: 10px 0 50px 0;
+  margin: 10px 0 50px 0;
 }
 
 .intro span {
-	color: var(--orange);
-	line-height: 20px;
+  color: var(--orange);
+  line-height: 20px;
   font-size: 18px;
 }
 
 .intro h1 {
-	color: var(--orange);
-	font-family: 'COCOGOOSE', sans-serif;
+  color: var(--orange);
+  font-family: 'COCOGOOSE', sans-serif;
   padding: 10px 0;
 }
 
@@ -167,10 +165,14 @@ header {
 .partners {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   flex-wrap: wrap;
   color: var(--gray);
   gap: 20px;
+}
+
+footer p {
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .partners p {
@@ -180,16 +182,11 @@ header {
 
 /* footer section styling starts here */
 
-
 footer {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   gap: 40px;
   flex-wrap: wrap;
-  padding: 30px; 
-}
-
-footer p {
-  font-family: 'COCOGOOSE', sans-serif;
+  padding: 30px;
 }
