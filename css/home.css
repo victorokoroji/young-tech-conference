@@ -114,20 +114,23 @@
 }
 
 .partners-section {
-  background-color: rgba(90, 88, 88, 0.392);
+  background-color: rgba(21, 20, 20, 0.871);
   padding: 20px;
-  height: 50px;
 }
 
 .partners-section h2 {
   text-align: center;
+  color: var(--gray);
+  margin-bottom: 30px;
 }
 
 .partners {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--gray);
+  gap: 20px;
 }
 
 footer {
