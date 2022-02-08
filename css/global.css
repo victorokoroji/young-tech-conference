@@ -150,3 +150,46 @@ header {
 .event-date {
   font-family: 'COCOGOOSE', sans-serif;
 }
+
+/* partners section styling starts here */
+
+.partners-section {
+  background-color: rgba(21, 20, 20, 0.871);
+  padding: 20px;
+}
+
+.partners-section h2 {
+  text-align: center;
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+  color: var(--gray);
+  gap: 20px;
+}
+
+.partners p {
+  font-size: 24px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+/* footer section styling starts here */
+
+
+footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px; 
+}
+
+footer p {
+  font-family: 'COCOGOOSE', sans-serif;
+}

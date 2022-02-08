@@ -113,29 +113,7 @@
   margin-bottom: 15px;
 }
 
-.partners-section {
-  background-color: rgba(21, 20, 20, 0.871);
-  padding: 20px;
-}
-
-.partners-section h2 {
-  text-align: center;
-  color: var(--gray);
-  margin-bottom: 30px;
-}
-
-.partners {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--gray);
-  gap: 20px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.speaker p {
+  font-size: 15px;
+  line-height: 20px;
 }
