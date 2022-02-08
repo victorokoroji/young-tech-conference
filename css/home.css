@@ -21,12 +21,16 @@
 	flex-direction: column;
 }
 
-.program-title {
+.program-title, .speakers-title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	gap: 10px;
+}
+
+.speakers-title {
+  margin-bottom: 50px;
 }
 
 .program-title h2 {
@@ -35,7 +39,7 @@
 	padding: 10px 0;
 }
 
-.program-title span {
+.program-title span, .speakers-title span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -95,15 +99,15 @@
 
 .speakers h2 {
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 .keynote-speakers {
-	display: flex;
-	justify-content: center;
+	display: grid;
+  grid-template-columns: 1fr;
+	justify-items: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 20px;
+	gap: 50px;
 }
 
 .speaker {
@@ -125,6 +129,7 @@
 .speaker p {
 	font-size: 15px;
 	line-height: 20px;
+  font-style: italic;
 }
 
 @media only screen and (min-width: 768px) {
@@ -139,7 +144,14 @@
 		flex-direction: column;
 		min-height: 300px;
 	}
+
 	.activity p {
 		text-align: center;
 	}
+
+  .keynote-speakers {
+      grid-template-columns: 1fr 1fr;
+        width:80%;
+  margin: auto;
+  }
 }

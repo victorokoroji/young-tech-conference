@@ -167,7 +167,7 @@ img {
 .partners-section h2 {
   text-align: center;
   color: var(--gray);
-  margin-bottom: 30px;
+ 
 }
 
 .partners {
@@ -181,6 +181,7 @@ img {
 
 footer p {
   font-family: 'COCOGOOSE', sans-serif;
+  font-size: 18px;
 }
 
 .partners p {
@@ -188,13 +189,30 @@ footer p {
   font-family: 'COCOGOOSE', sans-serif;
 }
 
+.partner-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+  margin-bottom: 40px;
+}
+
+.partner-title span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 2px;
+	width: 50px;
+	background-color: var(--orange);
+}
+
 /* footer section styling starts here */
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 40px;
   flex-wrap: wrap;
   padding: 30px;
 }
