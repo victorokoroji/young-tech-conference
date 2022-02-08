@@ -31,7 +31,7 @@
 }
 
 .speakers-title {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .program-title h2 {
@@ -86,12 +86,16 @@
   line-height: 20px;
 }
 
-.program a {
+.program-mobile {
   background-color: var(--orange);
   padding: 20px;
   justify-content: center;
   align-items: center;
   color: var(--white);
+}
+
+.program-desktop {
+  display: none;
 }
 
 .speakers {
@@ -109,12 +113,25 @@
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  padding-bottom: 50px;
 }
 
 .speaker {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  position: relative;
+}
+
+.speaker-bg {
+  background: url('../assets/images/transparent.jpeg') 0 0 no-repeat;
+  background-size: 100%;
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
 }
 
 .speaker img {
@@ -139,6 +156,17 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 5px;
+  }
+
+  .program-mobile {
+    display: none;
+  }
+
+  .program-desktop {
+    display: block;
+    text-decoration: underline;
+    color: var(--white);
+    padding: 20px 0;
   }
 
   .activity {
