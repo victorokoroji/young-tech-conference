@@ -62,28 +62,30 @@
 .activity {
   background-color: rgba(90, 88, 88, 0.392);
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 20px;
-  flex: 1;
   width: 100%;
 }
 
 .activity img {
   max-width: 40px;
   min-height: 40px;
+  display: block;
 }
 
 .activity h3 {
   color: var(--orange);
   font-size: 17px;
+   flex: 1;
 }
 
 .activity p {
   color: var(--white);
   font-size: 14px;
   line-height: 20px;
+   flex: 1;
 }
 
 .program-mobile {
