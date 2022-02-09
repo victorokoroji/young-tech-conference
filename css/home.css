@@ -78,14 +78,14 @@
 .activity h3 {
   color: var(--orange);
   font-size: 17px;
-   flex: 1;
+  flex: 1;
 }
 
 .activity p {
   color: var(--white);
   font-size: 14px;
   line-height: 20px;
-   flex: 1;
+  flex: 1;
 }
 
 .program-mobile {
