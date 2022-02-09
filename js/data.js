@@ -21,7 +21,7 @@ const projectDatas = [
     featuredImage: './assets/images/speaker-six.jpg',
     name: 'Pamela Odeh',
     qualification: 'Product Manager, TIIDELab Initiative',
-    description: 'She has contributed to bulding over 40 products over her 12 years experience. She has involved herself in sponsoring tech fellowships to train young aspiring developers.',
+    description: 'She has involved herself in sponsoring tech fellowships to train young aspiring developers.',
   },
   {
     featuredImage: './assets/images/speaker-four.jpg',
@@ -33,7 +33,7 @@ const projectDatas = [
     featuredImage: './assets/images/speaker-five.jpg',
     name: 'Adeyemi Buhari',
     qualification: 'Founder, NovuStack',
-    description: 'Buhari helped introduce innovate for Africa, with the sole purpose of giving young developers enabling environment to showcase there skills in engineering technolog.',
+    description: 'Buhari helped introduce innovate for Africa, giving enabling environment to young developer to showcase there skills in engineering technology.',
   },
 ];
 
@@ -54,3 +54,32 @@ document.querySelector('.keynote-speakers').innerHTML = projectDatas
 `,
   )
   .join('');
+
+function projects() {
+  const speaker = Array.from(document.querySelectorAll('.speaker'));
+  if (window.innerWidth > 0) {
+    for (let i = 2; i < speaker.length; i += 1) {
+      speaker[i].classList.add('hide-show-speaker');
+    }
+  }
+}
+
+projects();
+
+function toggle() {
+  document.querySelector('#btn').addEventListener('click', () => {
+    const speaker = Array.from(document.querySelectorAll('.speaker'));
+    for (let i = 2; i < speaker.length; i += 1) {
+      speaker[i].classList.toggle('hide-show-speaker');
+    }
+    const btn = document.querySelector('.btn');
+    if (
+      btn.innerHTML === 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>'
+    ) {
+      btn.innerHTML = 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
+    } else {
+      btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
+    }
+  });
+}
+toggle();

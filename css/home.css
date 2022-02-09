@@ -150,6 +150,27 @@
   font-style: italic;
 }
 
+.hide-show-speaker {
+  display: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--gray);
+  font-weight: bold;
+}
+
+.btn span i {
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  padding: 5px;
+  color: var(--orange);
+}
+
 @media only screen and (min-width: 768px) {
   .program-container {
     flex-direction: row;
@@ -182,5 +203,13 @@
     grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: auto;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .hide-show-speaker {
+    display: flex;
   }
 }
