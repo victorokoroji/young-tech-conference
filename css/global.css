@@ -124,7 +124,7 @@ img {
 /* intro section styling starts here */
 
 .intro {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .intro span {
@@ -321,7 +321,7 @@ footer {
   }
 
   .intro {
-    margin: 80px 0;
+    margin-top: 80px;
     padding: 20px 200px;
   }
 
