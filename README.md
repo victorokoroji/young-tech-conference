@@ -40,16 +40,16 @@ To get a local copy up and running follow these simple example steps.
 
 For tracking linters errors locally, you need to follow these steps:
 - For tracking linter errors in HTML file run:
-npx hint .
+`npx hint .`
 - For tracking linter errors in CSS file run:
-npx stylelint "**/*.{css,scss}"
+`npx stylelint "**/*.{css,scss}"`
 - For tracking linter errors in Javascript file run:
-npx eslint .
+`npx eslint .`
 
 ## Deployment
 
 - Use GitHub pages to deploy website
-- For more information about publishing sources, see [About github pages]()
+- For more information about publishing sources, see [About github pages](https://pages.github.com/)
 
 ## Author
 
